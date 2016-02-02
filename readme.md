@@ -49,3 +49,35 @@
     思路:
 
     直接模拟,用一个set存储改变过的位置.在每个节点八领域alive节点查找时,需要查看该节点是否在本轮修改过,如果修改过则状态取反来得到为修改的状态.
+
+- 225.[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
+
+    利用队列实现栈
+
+     only push to back, peek/pop from front, size, and is empty operations are valid.
+
+     略,搞不懂这道题..可以实现但效率比普通栈要低
+
+- 203.[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
+
+    在链表中删除特定值的节点
+
+    [code](203.py)
+- 199.[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+
+   给出二叉树的右视角节点
+
+   [code](199.py)
+
+   思路:
+    右节点优先dfs,保存当前已打印的最大层次.
+
+- 93.[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
+
+    给定一个数字字符串,给出所有可行的ip解析结果.
+
+    [code](93.py)
+
+    思路:
+
+    深度搜索,注意剪枝(字符串长度).注意0开头的非零数字是不允许的.
