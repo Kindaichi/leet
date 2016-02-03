@@ -105,3 +105,13 @@
   思路:
 
   用一个32位整数就可以表达一个字符串对26个小写字母的拥有情况.判断量字符串是否有公共字母只需用&位运算判断.
+
+- 116.[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+
+    完美二叉树每一层构建一个链表,要求空间复杂度O(1)
+
+    [code](116.py)
+
+    思路:
+
+    利用完美二叉树的特点,递归处理每个节点即可(但是递归的话空间复杂度就不是O(1)了)
