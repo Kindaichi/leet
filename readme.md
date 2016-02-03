@@ -81,3 +81,27 @@
     思路:
 
     深度搜索,注意剪枝(字符串长度).注意0开头的非零数字是不允许的.
+
+- 105.[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+
+    [code](105.py)
+
+    preorder确定当前节点,inorder确定两侧节点,递归构造节点即可
+
+- 128.Longest Consecutive Sequence
+
+    给定一个无须数组,给出最长的连续数列的长度,要求O(n)
+
+    TODO
+
+### 2016-02-03
+
+- 318.[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)
+
+  求两个字符串长度的最大乘积.要求两字符串不能有共同字母.
+
+  [code](318.cpp)
+
+  思路:
+
+  用一个32位整数就可以表达一个字符串对26个小写字母的拥有情况.判断量字符串是否有公共字母只需用&位运算判断.
